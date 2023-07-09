@@ -1,0 +1,9 @@
+.favGames .duBtn{
+    margin: 0 31%;
+}
+
+@media screen and (max-width: 420px) {
+    .favGames .buttons .duBtn{
+        margin: 0 0;
+    }
+}

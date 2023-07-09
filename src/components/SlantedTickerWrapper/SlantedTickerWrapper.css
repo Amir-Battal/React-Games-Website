@@ -1,0 +1,126 @@
+.ticker-wrapper{
+    position: relative;
+    width: 98.6vw;
+    margin: 0px 0;
+    padding: 0;
+    transform:rotate(-2deg);
+}
+
+.text-update, .text-update1, .text-update2{
+    height: 70px;
+    background: linear-gradient(45deg, #FFFFFF15, #D9D9D90B, #FFFFFF33);
+    box-shadow: 0px 4px 20px -1px #00000000;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    left: 0;
+}
+
+.text-update .content, .text-update1 .content, .text-update2 .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    width: 150%;
+    margin: 0;
+    font-weight: 800;
+    text-align: left;
+    transform: translateX(100%);
+    animation: moving 15s linear infinite;
+}
+
+.slanted .duBtn button{
+    display: none;
+}
+
+.slanted .numbers{
+    display: none;
+}
+
+@keyframes moving {
+    0%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+
+    .ticker-wrapper{
+        width: 95.3vw;
+    }
+
+    
+    .text-update{
+        left: 0;
+    }
+
+
+    .text-update .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        width: 300%;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 800;
+        text-align: left;
+        transform: translateX(100%);
+        animation: moving 15s linear infinite;
+    }
+
+
+    .slanted .duBtn{
+        margin-top: 15px;
+        margin-left: 55px;
+    }
+
+    .slanted .duBtn button{
+        display: inline-block;
+        width: 140px;
+        height: 44px;
+        
+    }
+    
+    .slanted .duBtn button h2{
+        font-size: 13px;
+    
+    }
+    
+    .slanted .numbers{
+        display: flex;
+        text-align: center;
+    }
+    
+    .slanted .number{
+        width: 100%;
+        line-height: 30.64px;
+        margin: 0 5px;
+        margin-top: 30px;
+    }
+    
+    .slanted .number h3{
+        font-size: 25px;
+    }
+
+    .slanted .numbers .number .exWord{
+        background: linear-gradient(45deg, #7351FC,#F96CFF, #BE00A0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .slanted .number h6{
+        font-size: 14.72px;
+    }
+    
+}

@@ -1,0 +1,7 @@
+.duRating{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}

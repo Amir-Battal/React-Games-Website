@@ -1,0 +1,159 @@
+
+.footer{
+    margin-top: 2px;
+    background: url('../../assets/images/footer/background.png');
+    height: 445px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 70px 0 40px 100px;
+}
+
+.footer .fSection{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+
+.footer .fSection .logo a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #fff;
+    gap: 10px;
+}
+
+.footer .fSection .logo a img{
+    width: 55px;
+    height: 45px;
+}
+
+.footer .fSection .logo p{
+    margin-top: 30px;
+    width: 285px;
+    color: #fff;
+    font-size: 16px ;
+    line-height: 30px;
+    letter-spacing: 0.64px;
+
+}
+
+.footer .fSection  a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .fSection .links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer .fSection .links .object{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.72px;
+}
+
+.footer .fSection .links a{
+    font-size: 15px;
+    letter-spacing: 0.72px;
+}
+
+.footer .fSection .links a:hover{
+    font-weight: 800;
+}
+
+.footer .partrenship{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footer .partrenship img{
+    width: 150px;
+    height: 30px;
+}
+
+.footer .partrenship .normalSize{
+    width: 110px;
+}
+
+.footer .social{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer .social .platforms {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    text-align: center;
+}
+
+.footer .social .platforms .cir{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 2px;
+    
+}
+
+.footer .social .platforms .cir i{
+    color: #fff;
+}
+
+.footer .social .platforms .cir:hover{
+    background-image: linear-gradient(45deg, #7351FC, #F96CFF, #BE00A0);
+}
+
+.footer .social .copyright{
+    color: #fff;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 420px) {
+    .footer{
+        margin-top: 2px;
+        background: url('../../assets/images/footer/background.png');
+        height: 900px;
+        width: 95vw;
+        background-size:auto;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 70px 0 40px 3px;
+    }
+    .footer .fSection {
+        width: 95vw;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+
+    .footer .fSection .links{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .footer .partrenship{
+        width: 95vw;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 40px;
+    }
+    .footer .social{
+        width: 95vw;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+
+}

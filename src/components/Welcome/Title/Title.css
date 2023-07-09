@@ -1,0 +1,27 @@
+.title{
+    width: 95vw;
+}
+
+.title h1{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 55%;
+    letter-spacing: 4px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 20vw;
+}
+.exWord{
+    background: linear-gradient(45deg, #7351FC,#F96CFF, #BE00A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 420px) {
+    .title h1{
+        font-size: 34px;
+        width: 85%;
+        margin: 30px 10vw;
+    }
+}

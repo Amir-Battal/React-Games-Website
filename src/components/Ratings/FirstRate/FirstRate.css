@@ -1,0 +1,122 @@
+.duRating .firstRate{
+    width: 500px;
+    height: 370px;
+    background: linear-gradient(45deg, #FFFFFF15, #D9D9D90B, #FFFFFF33);
+    box-shadow: 0px 4px 20px -1px #00000000;
+    border: 1px solid #6F5C9D;
+    border-radius: 1%;
+    padding: 50px 45px 30px 45px;
+}
+
+.duRating .angle img{
+    width: 85PX;
+    height: 68px;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -85px;
+}
+
+
+
+.duRating .stars{
+    margin-bottom: 5px;
+}
+
+.duRating .stars i{
+    color: #fff;
+}
+
+.duRating p{
+    color: #fff;
+}
+
+.duRating .line{
+    border-bottom: 1px solid #fff;
+    margin: 30px 10px;
+}
+
+.duRating .ratingWriter{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.duRating .ratingWriter .client{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.duRating .ratingWriter .client .profileImg img{
+    width: 60px;
+    height: 60px;
+}
+
+.duRating .ratingWriter .client .creatorName{
+    color: #fff;
+}
+
+.duRating .ratingWriter .verified{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.duRating .ratingWriter .verified img{
+    width: 23px;
+    height: 23px;
+}
+
+
+
+.duRating .ratingWriter .verified h4{
+    color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+    .duRating .firstRate{
+        width: 300px;
+        height: 510px;
+        padding: 50px 25px 30px 25px;
+    }
+    .duRating .firstRate .angle img{
+        width: 75PX;
+        margin-left: 46%;
+    }
+    .duRating .firstRate .stars{
+        text-align: center;
+    }
+    .duRating .firstRate p{
+        margin-top: 20px;
+        text-align: center;
+        width: 99%;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.64px;
+        line-height: 22.46px;
+    }
+    .duRating .firstRate .ratingWriter .client{
+        gap: 5px;
+    }
+    .duRating .firstRate .ratingWriter .client .profileImg img{
+        width: 50px;
+        height: 50px;
+    }
+    .duRating .firstRate .ratingWriter .client .creatorName h3{
+        font-size: 17px;
+    }
+    .duRating .firstRate .ratingWriter .client .creatorName h6{
+        font-size: 9px;
+    }
+    .duRating .firstRate .ratingWriter .verified{
+        margin-top: 10px;
+    }
+    .duRating .firstRate .ratingWriter .verified img{
+        width: 14px;
+        height: 14px;
+    }
+    .duRating .firstRate .ratingWriter .verified h4{
+        font-size: 10px;
+    }
+}

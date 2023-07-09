@@ -1,0 +1,184 @@
+.frame{
+    margin: 150px 25%;
+}
+
+.frame img{
+    position: absolute;
+}
+
+.frame .background{
+    margin-top: 38px;
+    margin-left: 10px;
+}
+
+.frame .leftSide{
+    position: absolute;
+    margin-top: 185px;
+    margin-right: 100px;
+}
+
+.frame .rightSide{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 695px;
+}
+
+.frame .top{
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 28px;
+}
+
+.frame .innerFrame{
+    position: absolute;
+    margin-left: 36px;
+    margin-top: 75px;
+    z-index: 0;
+}
+
+.frame .innerLeftSide{
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 35px;
+    z-index: 1;
+}
+
+.frame .innerRightSide{
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 650px;
+    z-index: 1;
+}
+
+.frame .wordBackground{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 195px;
+    /* z-index: 1; */
+    z-index: 0;
+}
+
+.frame .logoBackground{
+    position: absolute;
+    margin-left: 320px;
+    z-index: 1;
+}
+
+.frame .logo{
+    position: absolute;
+    margin-left: 342px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 420px) {
+    .frame img{
+        position: absolute;
+    }
+    
+    .frame .background{
+        width: 300px;
+        height: 200px;
+        margin-top: 0px;
+        top: 195%;
+        margin-left: 0px;
+        left: 15%;
+    }
+    
+    .frame .leftSide{
+        position: absolute;
+        width: 7px;
+        height: 70px;
+        margin-top: 0px;
+        top: 202.5%;
+        margin-left: 0px;
+        left: 14%;
+    }
+    
+    .frame .rightSide{
+        position: absolute;
+        width: 7px;
+        height: 70px;
+        margin-top: 0px;
+        top: 202.5%;
+        margin-left: 0px;
+        left: 90%;
+    }
+    
+    .frame .top{
+        position: absolute;
+        width: 105px;
+        height: 7px;
+        margin-top: 0px;
+        top: 194.5%;
+        margin-left: 0px;
+        left: 39.5%;
+    }
+    
+    .frame .innerFrame{
+        position: absolute;
+        width: 285px;
+        height: 175px;
+        margin-top: 0px;
+        top: 196%;
+        margin-left: 0px;
+        left: 17%;
+        z-index: 0;
+    }
+    
+    .frame .innerLeftSide{
+        position: absolute;
+        width: 7px;
+        height: 45px;
+        margin-top: 0px;
+        top: 195.6%;
+        margin-left: 0px;
+        left: 16.5%;
+        z-index: 1;
+    }
+    
+    .frame .innerRightSide{
+        position: absolute;
+        width: 7px;
+        height: 45px;
+        margin-top: 0px;
+        top: 195.6%;
+        margin-left: 0px;
+        left: 88%;
+        z-index: 1;
+    }
+    
+    .frame .wordBackground{
+        position: absolute;
+        width: 145px;
+        height: 25px;
+        margin-top: 0px;
+        top: 214.9%;
+        margin-left: 0px;
+        left: 34.5%;
+        /* z-index: 1; */
+        z-index: 0;
+    }
+    
+    .frame .logoBackground{
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        margin-top: 0px;
+        top: 192.5%;
+        margin-left: 0px;
+        left: 48.5%;
+        z-index: 1;
+    }
+    
+    .frame .logo{
+        position: absolute;
+        width: 17px;
+        height: 14px;
+        margin-top: 0px;
+        top: 193.5%;
+        margin-left: 0px;
+        left: 50.4%;
+        z-index: 1;
+    }
+}

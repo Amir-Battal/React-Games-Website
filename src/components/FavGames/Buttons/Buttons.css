@@ -1,0 +1,52 @@
+.favGames .duBtn{
+    margin: 0 31%;
+}
+
+.duBtn button{
+    width: 210px;
+    height: 70px;
+    margin: 30px 8px;
+    background: none;
+    border: 1px solid #fff;
+    transform: skew(-20deg);
+    cursor: pointer;
+}
+
+.duBtn button h2{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    transform: skew(20deg);
+
+}
+
+.duBtn button:hover{
+    background-image: linear-gradient(45deg, #7351FC, #F96CFF, #BE00A0);
+    color: #fff;
+    border: none;
+}
+
+@media screen and (max-width: 420px) {
+    .buttons{
+        margin-left: 12%;
+        margin-top: 25px;
+    }
+
+    .buttons .duBtn{
+        margin-top: 15px;
+        margin-left: 55px;
+    }
+
+    .buttons .duBtn button{
+        display: inline-block;
+        width: 140px;
+        height: 44px;
+        
+    }
+    
+    .buttons .duBtn button h2{
+        font-size: 13px;
+    
+    }
+}

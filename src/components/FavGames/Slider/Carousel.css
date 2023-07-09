@@ -1,0 +1,210 @@
+.wrapper {
+    width: 95vw;
+    position: relative;
+    /* margin: 100px 90px 80px 0px; */
+    margin: 100px 0;
+}
+
+/* .wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    color: #21272A;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+.wrapper i:active{
+    transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+    left: -100px;
+}
+.wrapper i:last-child{
+    right: -100px;
+} */
+
+.wrapper .carousel{
+    width: 98.64vw;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    height: 420px;
+    /* width: 700px; */
+    width: 600px;
+    list-style: none;   
+    background-image: url('../images/frame/background.png');
+    cursor: pointer;
+    padding-bottom: 15px;
+    /* flex-direction: column; */
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 50px;
+    /* display: none; */
+    /* HERE */
+    z-index: 0;
+}
+
+.card .img img {
+    width: 489px;
+    height: 288px;
+    margin-top: 60px;
+    object-fit: cover;
+    /* display: none; */
+    z-index: 0;
+}
+
+.carousel .card h4 {
+    display: flex;
+    justify-content: center;
+    font-family: "Plain", Monospace;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16.2px;
+    color: #6D7280;
+    margin: 30px 0 5px;
+}
+
+.wrapper .carousel .card h2{
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28.06px;
+    font-weight: 800;
+}
+
+.carousel .img img:hover{ 
+    border: 0.5px solid #21272A; 
+    width: 589px;
+    height: 388px;
+    margin-top: 0;
+    object-fit: cover; 
+    border: 2px solid #6d728023;
+} 
+
+/* @media screen and (max-width: 992px) {
+    .wrapper {
+        max-width: 100vw;
+        position: relative;
+        margin: 100px 20px 80px 0px;
+    }
+    .wrapper i {
+        position: absolute;
+        top: 50%;
+        height: 50px;
+        width: 50px;
+        margin: 20vh 50vw;
+        color: #979797;
+        font-size: 30px;
+        border: 2px solid #979797;
+        border-radius: 50%; */
+    /* } */
+    /* .carousel .img img:hover{ */
+        /* border: 0.5px solid #21272A; */
+        /* width: 189px;
+        height: 268px; */
+        /* width: 200px; */
+        /* height: 300px; */
+        /* object-fit: cover; */
+        /* border: 2px solid #6d728023;
+    } */
+
+    /* .carousel .card {
+        margin-left: 30px;
+    }
+    .carousel .card h4 {
+        font-size: 16px;
+        text-align: center;
+        margin: 2px 0 5px;
+    }
+} */
+
+
+@media screen and (max-width: 420px) {
+    .wrapper {
+        width: 95vw;
+        position: relative;
+        /* margin: 100px 90px 80px 0px; */
+        margin: 0px 0;
+    }
+    
+    .wrapper .carousel{
+        width: 96.05vw;
+        margin-top: -100px;
+    }
+    
+    .carousel .card {
+        height: 180px;
+        /* width: 700px; */
+        width: 600px;
+        padding-bottom: 15px;
+        /* flex-direction: column; */
+        margin-left: 25px;
+        /* display: none; */
+        /* HERE */
+        z-index: 0;
+    }
+    
+    .card .img img {
+        width: 235px;
+        height: 135px;
+        margin-top: 30px;
+        /* display: none; */
+        z-index: 0;
+    }
+    
+    .carousel .card h4 {
+        display: flex;
+        justify-content: center;
+        font-family: "Plain", Monospace;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16.2px;
+        color: #6D7280;
+        margin: 30px 0 5px;
+    }
+    
+    .wrapper .carousel .card h2{
+        position: relative;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        top: -4px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .carousel .img img:hover{ 
+        width: 260px;
+        height: 180px;
+        margin-top: -17px;
+    } 
+    
+}

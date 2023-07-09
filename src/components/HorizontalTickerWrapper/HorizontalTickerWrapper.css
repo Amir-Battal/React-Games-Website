@@ -1,0 +1,48 @@
+.ticker-wrapper1{
+    position: relative;
+    width: 98.6vw;
+    margin: 0px 0;
+    padding: 0;
+}
+
+.text-update1{
+    height: 70px;
+    background: none;
+    box-shadow: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    left: 0;
+}
+
+@media screen and (max-width: 420px) {
+    .ticker-wrapper1{
+        width: 95.3vw;
+    }
+    
+    .text-update1{
+        
+        left: 0;
+    }
+
+
+    .text-update1 .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        width: 300%;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 800;
+        text-align: left;
+        transform: translateX(100%);
+        animation: moving 15s linear infinite;
+    }
+}

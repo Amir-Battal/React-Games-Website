@@ -1,0 +1,57 @@
+
+.favGames .fSection{
+    margin: 150px 25%;
+}
+
+
+
+.favGames .fSection h1{
+    font-size: 68.94px;
+    color: #fff;
+    text-transform: uppercase;
+    /* width: 47%; */
+    letter-spacing: 4px;
+    font-weight: 800;
+    width: 700px;
+    text-align: center;
+}
+
+.favGames .fSection h1 .exWord{
+    background: linear-gradient(45deg, #7351FC,#F96CFF, #BE00A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.favGames .fSection h5{
+    font-size: 18.72px;
+    font-weight: 400;
+    color: #fff;
+    /* width: 47%; */
+    line-height: 34.64px;
+    margin: 10px 0;
+    width: 550px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+@media screen and (max-width: 420px) {
+    .favGames .fSection{
+        width: 86vw;
+        /* margin-top: 50px; */
+        /* margin-left: 38px; */
+        margin: 50px 0 0 30px;
+    }
+    
+    .favGames .fSection h1{
+        font-size: 36px;
+        width: 88.5vw;
+    }
+        
+    .favGames .fSection h5{
+        font-size: 18px;
+        width: 86vw;
+        margin-left: 0;
+    }
+    
+}
